@@ -8,8 +8,10 @@ NODE_ENV=development
 email="YOUR_EMAIL"
 password="YOUR_PASSWORD"
 api="YOUR_API_LINK"
+from="YOUR_FROM_EMAIL/NAME"
+subject="EMAIL_SUBJECT"
 ```
-*Note: This is only for GMAIL*
+*Note: This is only for GMAIL. HTML/Text must be edited in code*
 
 
 *Note: API must return array as shown below*
