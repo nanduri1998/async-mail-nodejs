@@ -75,10 +75,10 @@ massMailer.prototype.SendEmail = function(Email,callback) {
     async.waterfall([
         function(callback) {                
             var mailOptions = {
-                from: '"Innovation Center Team" <innovationcenter_hyd@gitam.in>',     
+                from: process.env.from,     
                 to: Email,
-                subject: "Innovation Center Feedback", 
-                html: "<p>Hi,</p><p>Thank you for attending the auditions. We would appriciate if you could fill this short feedback to help us serve you better. <a href='http://innovationcenter.gitam.edu/feedback'>Link</a></p>"
+                subject: process.env.subject, 
+                html: "YOUR_EMAIL_TEXT/HTML_HERE"
             };
             transporter.sendMail(mailOptions, function(error, info) {               
                 if(error) {
