@@ -13,8 +13,8 @@ api="YOUR_API_LINK"
 *Note: API must return array as shown below*
 ```json
 [
-    abc@xyz.com,
-    abc@pqr.com
+    "abc@xyz.com",
+    "abc@pqr.com"
 ]
 ```
 ##  Execute
