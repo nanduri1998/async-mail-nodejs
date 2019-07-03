@@ -10,6 +10,8 @@ password="YOUR_PASSWORD"
 api="YOUR_API_LINK"
 ```
 *Note: This is only for GMAIL*
+
+
 *Note: API must return array as shown below*
 ```json
 [
